@@ -1,0 +1,54 @@
+.Home{
+	/*height: 100vh;*/
+	display:flex;
+	
+	/*align-items: center;*/
+	/*margin-top: 100px;
+	width: 100%;*/
+	background-color: #EAEDED;
+}
+.logo-img{
+	width: 270px;
+	height: 60px;
+}
+.pro-con{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	height: 100vh;
+}
+.foot{
+	/*display: flex;
+	flex-direction: column;*/
+	flex-shrink: 0;
+}
+.home-nav{
+	display: flex;
+	
+	/*justify-content: space-between;*/
+	height: 60px;
+	width: 100%;
+	background-color: #921B1D;
+	
+}
+.user-name{
+	
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	position:absolute;
+	right: 50px;
+	top: 20px;
+	
+}
+
+.rmvbtn{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
