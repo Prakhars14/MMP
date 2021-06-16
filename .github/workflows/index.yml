@@ -1,10 +1,5 @@
 name: deploy-pipeline
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - "client/**"
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-18.04
